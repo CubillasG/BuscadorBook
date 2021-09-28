@@ -1,8 +1,9 @@
 import React from 'react'
+import colores from './PeliTarjeta.module.css'
 
 export const Cabeza = () => {
     return (
-        <div>
+        <div className={colores.PeliTitulo}>
             <h2>Cubix Movies</h2>
         </div>
     )

@@ -1,0 +1,42 @@
+.peliTarjeta{
+    list-style: none;
+    font-size: 1.5rem;
+    width: 350px;
+    padding: 10px 15px;
+    text-align: center;
+
+}
+.peliTarjeta:hover{
+    color: white;
+    background: tomato;
+    box-shadow: 3px 5px 3px 5px gray;
+}
+.peliImagen{
+    border-radius: 8px;
+    
+}
+img{
+    width: 230px;
+    height: 345px;
+    margin: 10px;
+}
+.PeliContenedor{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.PeliTitulo{
+    width: 100%;
+    height: 150px;
+    background: burlywood;
+    box-shadow: 3px 3px 3px gray;
+    text-align: center;
+  
+}
+h2{
+    margin: 0 auto;
+    padding: 40px;
+    font-size: xx-large;
+}
